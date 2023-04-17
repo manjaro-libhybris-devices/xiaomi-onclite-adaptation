@@ -5,7 +5,7 @@ After=phosh.service
 
 [Service]
 Type=oneshot
-ExecStart=/bin/sh -c 'chown droidian:droidian /sys/class/leds/lcd-backlight/brightness'
+ExecStart=/bin/sh -c 'chown manjaro:manjaro /sys/class/leds/lcd-backlight/brightness'
 
 [Install]
 WantedBy=multi-user.target
