@@ -37,7 +37,4 @@ package() {
 
     mkdir -p "${pkgdir}/usr/lib/systemd/system/"
     install -Dm644 "${srcdir}/xiaomi-onclite-adaptation/brightnessperm.service" "${pkgdir}/usr/lib/systemd/system/"
-
-    mkdir -p "${pkgdir}/usr/share/glib-2.0/schemas/"
-    install -Dm644 "${srcdir}/xiaomi-onclite-adaptation/90_manjaro.gschema.override" -t "${pkgdir}/usr/share/glib-2.0/schemas/"
 }
